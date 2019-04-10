@@ -424,6 +424,11 @@ height: 100%;
 font-size: 40px;
 }
 }
+@media (min-width:930px) and (max-width:1088px) {
+  .image {
+    clip-path: circle(22.5% at 60% 50%);
+  }
+}
 @media (min-width:768px) and (max-width:930px) {
   .menu{
     display: none;
@@ -460,6 +465,9 @@ font-size: 40px;
   }
   #home{
     width:100%;
+  }
+     .image {
+    clip-path: circle(30% at 60% 50%);
   }
   .main {
      display: grid;
@@ -538,7 +546,9 @@ font-size: 40px;
     width: 100%;
     flex-direction: column;
   }
-
+ .image {
+    clip-path: circle(30% at 60% 50%);
+  }
   .description {
     flex-direction: row;
     font-size: 1.5rem;
@@ -621,7 +631,9 @@ font-size: 40px;
   .intro .image {
     width: 100%;
   }
-
+ .image {
+    clip-path: circle(30% at 60% 50%);
+  }
   .description {
     width: 100%;
     display: flex;
@@ -629,7 +641,7 @@ font-size: 40px;
     justify-content: center;
     align-items: center;
     padding:20px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .skill {
     width: 95vw;
